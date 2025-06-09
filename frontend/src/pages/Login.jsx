@@ -68,7 +68,7 @@ const handleLogin = async (e) => {
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               required
-              placeholder="e.g., kminchelle"
+              placeholder="e.g., emilys"
             />
           </div>
           <div>
@@ -79,7 +79,7 @@ const handleLogin = async (e) => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-              placeholder="e.g., 0lelplR"
+              placeholder="e.g., emilyspass"
             />
           </div>
           <button
